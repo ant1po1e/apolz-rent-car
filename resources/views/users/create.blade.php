@@ -1,4 +1,5 @@
 <div class="w-full mx-auto">
+    <h2 class="text-lg font-semibold mb-2">Add User</h2>
     <form class="min-w-full bg-white border border-gray-200 rounded-md shadow-md p-5">
         @csrf
         <!-- Username -->
