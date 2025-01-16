@@ -16,7 +16,7 @@
 
     <!-- Navigation Menu -->
     <nav class="mt-4">
-        <a href="#" class="flex items-center space-x-3 px-4 py-3 bg-blue-50 text-blue-500 border-l-4 border-blue-500">
+        <a href="/" class="flex items-center space-x-3 px-4 py-3 bg-blue-50 text-blue-500 border-l-4 border-blue-500">
             <i class="fas fa-chart-line"></i>
             <span>Dashboard</span>
         </a>
@@ -32,7 +32,7 @@
             <i class="fas fa-car"></i>
             <span>Cars</span>
         </a>
-        <a href="#" class="flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50">
+        <a href="{{ route('users') }}" class="flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50">
             <i class="fas fa-users"></i>
             <span>Users</span>
         </a>

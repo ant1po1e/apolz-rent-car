@@ -43,7 +43,7 @@ class RegisterController extends Controller
         ]);
 
         session()->flash('success','Successfully registered');
-        return redirect()->route('register');
+        return redirect()->route('login');
     }
 
     /**

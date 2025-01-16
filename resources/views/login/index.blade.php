@@ -29,7 +29,7 @@
             <div class="text-red-500 text-sm">{{ $message }}</div>
             @enderror
             <div>
-                <input type="text" name="email" placeholder="Email address" alue="{{ old('email') }}"
+                <input type="text" name="email" placeholder="Email address" value="{{ old('email') }}"
                     class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
                     required />
             </div>
