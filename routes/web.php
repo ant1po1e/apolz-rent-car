@@ -18,3 +18,7 @@ Route::get('login/signout', [LoginController::class,'signout'])->name('login.sig
 Route::get('users', function(){
     return view('users.index');
 })->name('users')->middleware('auth');
+
+Route::get('car', function(){
+    return view('car.index');
+})->name('car')->middleware('auth');

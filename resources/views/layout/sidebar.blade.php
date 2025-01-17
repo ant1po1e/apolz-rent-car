@@ -28,7 +28,7 @@
             <i class="fas fa-file-alt"></i>
             <span>Reports</span>
         </a>
-        <a href="#" class="flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50">
+        <a href="{{ route('car') }}" class="flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50">
             <i class="fas fa-car"></i>
             <span>Cars</span>
         </a>
