@@ -22,3 +22,7 @@ Route::get('users', function(){
 Route::get('car', function(){
     return view('car.index');
 })->name('car')->middleware('auth');
+
+Route::get('transaction', function(){
+    return view('transaction.index');
+})->name('transaction')->middleware('auth');
